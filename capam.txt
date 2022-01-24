@@ -1,0 +1,18 @@
+pamela.telkomsel.co.id
+
+
+punya mas irza dan lukas 19333794-> uekv#2$H
+
+prepod : 30
+prod : 31
+
+klik ssh tunnel
+
+ssh 19333794@127.0.0.1 -p 54321
+
+penjelasan :
+19333794 user vpn
+
+54321 port
+
+masuk ke mobaxterm

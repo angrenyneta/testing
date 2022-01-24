@@ -1,0 +1,41 @@
+-Macmini Kokas
+id: 313 847 274
+pw: phincon123
+
+https://mdltel.atlassian.net/wiki/spaces/MYT/pages/2559574034/SOP+Build+Android+-+Jenkins+Mac+Mini
+ini sopnya ya
+
+Request by :  Imam Sulthon
+Type  : Android v6.8.1 Sprint 40
+Branch  : release/6.8.1-sp40-0
+Env / Mode  : Preprod Debug, Prod Debug & Prod Release
+Notes  :  support deployment
+Executor by : Salim
+Status  : Done
+No. Build : Build#6.8.1-1364
+Uploaded to Firebase
+
+Note: support deployment
+Sprint: 40
+ Mode: Preprod Debug
+
+ARTIFACT_ID= 6.8.1-1375
++ echo 'PACKAGE_VERSION= 6.8.1'
+PACKAGE_VERSION= 6.8.1
++ echo 'VERSION_CODE= 68101375'
+VERSION_CODE= 68101375
+
+https://cicd-gitlab.telkomsel.co.id/my-telkomsel/mytelkomsel-android-app
+
+
+Build Mode Android :
+assembleProductionRelease -> APK
+bundleProductionRelease -> AAB
+
+https://mdltel.atlassian.net/wiki/spaces/MYT/pages/2558951483/SOP+Upload+Android+Relase+to+Alpha+-+Jenkins+Mac+Mini
+
+ https://mdltel.atlassian.net/wiki/spaces/MYT/pages/2559574034/SOP+Build+Android+-+Jenkins+Mac+Mini -> android
+
+ https://mdltel.atlassian.net/wiki/spaces/MYT/pages/2532475004/SOP+Build+IOS+-+Jenkins+Mac+Mini -> Ios
+
+Kalo yang android iya pak udah di firebase production, kalo yang ios udah di testfligt production
